@@ -1,0 +1,43 @@
+.container{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.wrapper input[type='text']{
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 10px 0;
+    width: 250px;
+    padding:5px;
+    background-color: lightblue;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 2px solid tomato;
+}
+select{
+    margin: 30px 0 0px;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+input[type='submit']{
+    display: block;
+    height: 32px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid black;
+    margin: 30px auto;
+    width: 250px;
+    outline: none;
+    background-color: tomato;
+}
